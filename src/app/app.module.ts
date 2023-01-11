@@ -5,9 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { SideBarComponent } from './side-bar/side-bar.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SideBarComponent
   ],
   imports: [
     BrowserModule,

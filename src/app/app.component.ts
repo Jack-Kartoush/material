@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'material';
+  tasks = [''];
+  task = '';
+addTask() {
+  
+    this.tasks.push(this.task)
+    console.log("task", this.task)
+    return;
+}
 }

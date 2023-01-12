@@ -11,3 +11,53 @@ body {
   background-color: #fefefe;
 }
 
+.app_container{
+  display: flex;  
+  justify-content: space-between;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  border-bottom: 2px solid #000;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.title h1{
+  font-size: 2.5rem;
+  opacity: 0.5;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.add_cards{
+  position: absolute;
+  bottom: 0;
+  left: 26.5%;
+  overflow: hidden;
+}
+.add_cards .cards_input{
+  min-width: 130vmin ;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  background: none;
+  border:none;
+  border-top:1px solid black ;
+  border-left:3px solid black ;
+  border-radius: 1px;
+}
+.add_btn{
+  background-color: #cf8f19;
+  width: 100px;
+  color: white;
+  font-size: 16px;
+  padding: 11px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+}
+.add_btn:active{
+  transform: scale(0.90);
+}

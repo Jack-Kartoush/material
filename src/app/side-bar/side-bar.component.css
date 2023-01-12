@@ -1,0 +1,44 @@
+.side-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width:400px;
+  min-height: 100vh;
+  background-color: darkblue;
+  box-shadow: 1px 1px 7px 5px rgba(0, 0, 0, 0.6);
+}
+.join,
+.room-list{
+  display: flex;
+  flex-direction: column;
+}
+button{
+  background: none;
+  border-top:1px solid white;
+  border-bottom:1px solid white;
+  color: #fff;
+  padding: 10px;
+  outline: none;
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+  font-size: 16px;
+
+
+}
+button:active{
+  transform: scale(0.90);
+}
+
+label{
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  border-top: 1px solid #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+.join-input{
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+}

@@ -1,2 +1,21 @@
+<nav>
+  <button type="button" (click)="toggle()" class="black">X</button>
+  
+</nav>
+<div [@openClose]="isOpen ? 'open' : 'closed'" class="open-close-container">
+  <div class="side-container">
 
+    <div class="room-list">
 
+      <button>Creat a room</button>
+      <!-- list -->
+      <label>room-1</label>
+
+    </div>
+    <div class="join">
+      <label for="join">join a room</label>
+      <input type="text" id="join" placeholder="type your code" class="join-input">
+      <button>Dowenload as PDF</button>
+    </div>
+  </div>
+</div>

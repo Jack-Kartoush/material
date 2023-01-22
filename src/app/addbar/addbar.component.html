@@ -1,0 +1,10 @@
+
+<div class="add_cards">
+    <input type="text" class="cards_input" [(ngModel)]="cIdeas" placeholder="Type what is in your mind" />
+    <button class="add_btn" (click)="createIdea()">add</button>
+    <p *ngFor="let task of tasks">
+      {{task.content}}
+    </p>
+
+</div>
+

@@ -40,6 +40,7 @@ import {
     ]),
   ],
 })
+
 export class AppComponent {
   isOpen = true;
 
@@ -47,4 +48,5 @@ export class AppComponent {
   toggle() {
     this.isOpen = !this.isOpen;
   }
+  
 }

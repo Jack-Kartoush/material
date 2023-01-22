@@ -1,20 +1,17 @@
-
 <nav>
-    <button type="button" (click)="toggle()" class="bar-btn">X</button>
-    
-  </nav>
-  <div class="title">
-    <h1>brain storming</h1>
+  <button type="button" (click)="toggle()" class="bar-btn">X</button>
+
+</nav>
+<div class="title">
+  <h1>brain storming</h1>
 </div>
 <div class="app_container">
-   
-<div [@openClose]="isOpen ? 'open' : 'closed'" class="open-close-container">
-<app-side-bar></app-side-bar>
-</div>
+  <div [@openClose]="isOpen ? 'open' : 'closed'" class="open-close-container">
+    <app-side-bar></app-side-bar>
+  </div>
+  <div class="input-contaier">
 
-<div class="add_cards">
-    <input type="text" class="cards_input" ngModel="newTask" placeholder="Type what is in your mind">
-    <button class="add_btn">add</button>
-    
+    <app-addbar></app-addbar>
+  </div>
 
 </div>
